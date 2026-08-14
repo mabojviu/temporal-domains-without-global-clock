@@ -1,9 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated manuscript and archived release."
-title: "Temporal Domains Without a Global Clock: Partial Gluing, Holonomy, and Gauge-Invariant Field Structure in Finite Relational Event Networks"
-version: 1.0.0
-doi: "10.5281/zenodo.21931500"
-date-released: 2026-08-14
+message: "If you use this repository, please cite the associated manuscript and this archived v2.0.0 reproducibility release."
+title: "Collaborative relational time without a global clock: Reproducibility materials for finite event networks"
+version: 2.0.0
+doi: "10.5281/zenodo.21938420"
 type: software
 license: BSD-3-Clause
 repository-code: "https://github.com/mabojviu/temporal-domains-without-global-clock"
@@ -13,8 +12,13 @@ authors:
     orcid: "https://orcid.org/0009-0003-5544-0273"
 keywords:
   - relational time
-  - temporal domains
+  - event networks
+  - regional informational locality
+  - local clock reconstruction
+  - collaborative reconstructibility
+  - temporal atlases
+  - affine calibration
   - holonomy
   - discrete Hodge decomposition
   - gauge invariance
-  - provenance-aware transport
+  - reproducibility

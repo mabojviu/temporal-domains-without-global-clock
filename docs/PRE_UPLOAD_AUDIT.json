@@ -1,41 +1,27 @@
 {
-  "candidate": "v0.1.2",
-  "certification_009_recorded_metadata_only": true,
-  "certification_lineage_complete_for_successor_archive": true,
-  "certifications_included": [
-    "CERT-010",
-    "CERT-011",
-    "CERT-012",
-    "CERT-013",
-    "CERT-014",
-    "CERT-015",
-    "CERT-016",
-    "CERT-017"
-  ],
-  "date": "2026-08-14",
-  "doi_assigned": false,
-  "figures": {
-    "figure1": "identical connectivity / typed ORD-CAL-CORR semantics",
-    "figure2": "exact-gradient / coexact-circulation / harmonic Hodge sectors",
-    "figure3": "reference-oriented provenance current, continuity, conditional conservation"
+  "release": "v2.0.0-final-doi-bound-cleaned",
+  "status": "PASS_LOCAL_FINAL_DOI_BOUND_CLEAN_TREE",
+  "publication_status": "FROZEN_CLEAN_TREE_NOT_YET_EXTERNALLY_PUBLISHED",
+  "registry_source_version": "1.8",
+  "traceability_version": "1.2",
+  "manuscript_version": "v15_3_TARGET_RELATION_EXPLICIT_FINAL",
+  "manuscript_docx_sha256": "d0efc49a254c6a22d26bac1f55e6c6842c82850a09a6d6bef974b7846890c704",
+  "manuscript_pdf_sha256": "2672553cce19bebefaa5999713bf9fbe2de82f92cad105378f4b1a87840c21f9",
+  "manuscript_render_pages": 17,
+  "manuscript_a11y": {
+    "high": 0,
+    "medium": 0,
+    "low": 0
   },
-  "github_upload_performed": false,
-  "historical_negative_path_records_included": [
-    "TC4H-v0.1 scientific FAIL",
-    "TC5H-v0.2 scientific FAIL",
-    "TC8H-v0.1 pre-science abandonment"
-  ],
-  "manuscript": {
-    "author_metadata": "Mariano Boj Viudes",
-    "data_availability": "provisional until GitHub/Zenodo DOI binding",
-    "docx_source": "Temporal_Domains_Without_a_Global_Clock_JMP_MANUSCRIPT_7_PREFLIGHT_CLEAN.docx",
-    "pages": 17,
-    "pdf_source": "Temporal_Domains_Without_a_Global_Clock_JMP_MANUSCRIPT_7_CANDIDATE.pdf"
-  },
-  "predecessor_certifications_001_008_not_duplicated": true,
-  "schema": "LQTA-D-TEMPORAL-DOMAINS-GITHUB-CANDIDATE-PREFLIGHT-0.1",
-  "science_frozen": true,
-  "status": "PASS_PRE_UPLOAD_CANDIDATE_REBUILT_AWAITING_GITHUB",
-  "target_release": "v1.0.0",
-  "zenodo_release_performed": false
+  "known_nonblocking_gap": "D1.5 historical replay return not recovered",
+  "cert016_package_sha256": "fed6181cff06b2efabafcb8276edb866551b197cad2cbaff9c9e1ba106f5fdb8",
+  "registry_hash_mismatches": [],
+  "zenodo_concept_doi": "10.5281/zenodo.21931499",
+  "zenodo_version_doi": "10.5281/zenodo.21938420",
+  "doi_binding_state": "RESERVED_AND_BOUND_BEFORE_FINAL_FILE_FREEZE",
+  "github_zenodo_integration_caution": "Temporarily disable automatic GitHub-release ingestion for v2.0.0 because a manual Zenodo new-version draft with this reserved DOI already exists.",
+  "next_gate": "commit exact cleaned tree -> verify GitHub commit -> create GitHub v2.0.0 release with Zenodo auto-ingest OFF -> upload exact final ZIP to existing saved Zenodo draft -> publish -> verify DOI -> final JMP audit",
+  "github_zenodo_integration_state": "OFF_CONFIRMED_AFTER_SAVING_ZENODO_DRAFT",
+  "release_notes_cleanup": "Removed one duplicated DOI/archive-binding subsection before GitHub publication; scientific content unchanged.",
+  "outer_zip_hash_policy": "External .sha256 sidecar only; not embedded in tree to avoid circular self-reference."
 }

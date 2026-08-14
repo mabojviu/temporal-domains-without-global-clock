@@ -1,0 +1,13 @@
+{
+  "release": "v2.0.0",
+  "concept_doi": "10.5281/zenodo.21931499",
+  "version_doi": "10.5281/zenodo.21938420",
+  "doi_state_at_freeze": "RESERVED_IN_ZENODO_NEW_VERSION_DRAFT_NOT_YET_REGISTERED",
+  "reservation_date": "2026-08-14",
+  "manuscript": "LQTA_D_ARTICLE_2_COLLABORATIVE_RELATIONAL_TIME_v15_3_TARGET_RELATION_EXPLICIT_FINAL.docx",
+  "manuscript_sha256": "d0efc49a254c6a22d26bac1f55e6c6842c82850a09a6d6bef974b7846890c704",
+  "rendered_pdf_sha256": "2672553cce19bebefaa5999713bf9fbe2de82f92cad105378f4b1a87840c21f9",
+  "scientific_change_relative_to_v15": false,
+  "metadata_change": "Data Availability bound to reserved v2 DOI; publication-clarity patches retained (upright semantic labels; # Ess) and Q_G target relation explicitly typed as BEFORE/INCOMPARABLE with the otherwise branch stated",
+  "historical_versions_rewritten": false
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Collaborative relational time without a global clock: Reproducibility materials for finite event networks",
+  "description": "Version 2.0.0 reproducibility archive for the manuscript 'Collaborative relational time without a global clock: Reconstruction, partial gluing, and gauge-invariant calibration structure in finite event networks'. The archive broadens the v1.x temporal-domain record to include the early successor chain from regional informational locality through conditional global-coordinate redundancy and staged local-clock/calibration reconstruction, followed by collaborative reconstructibility, lifecycle, temporal atlases, finite scalar deconditioning, typed partial gluing, and finite gauge/Hodge/provenance-balance structure. Claims are finite and structural; the archive does not establish universal temporal emergence, continuum spacetime, Lorentz symmetry, gravity, physical curvature, or a Noether charge.",
+  "creators": [
+    {
+      "name": "Boj Viudes, Mariano",
+      "orcid": "0009-0003-5544-0273",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "version": "2.0.0",
+  "upload_type": "software",
+  "keywords": [
+    "relational time",
+    "finite event networks",
+    "regional informational locality",
+    "local clock reconstruction",
+    "collaborative reconstructibility",
+    "temporal atlas",
+    "affine calibration",
+    "holonomy",
+    "discrete Hodge decomposition",
+    "gauge invariance",
+    "reproducibility"
+  ]
+}

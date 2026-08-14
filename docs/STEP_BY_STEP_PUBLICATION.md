@@ -1,73 +1,15 @@
-# Publication workflow — step by step
+# Publication sequence for v2.0.0 after DOI reservation
 
-This follows the same publication/reproducibility sequence used for the previous JMP article.
+The version DOI is already reserved: `10.5281/zenodo.21938420`. The final tree is therefore DOI-bound.
 
-## Frozen sequence
+1. From the extracted repository root, run `python code/verify_sha256.py`; it must pass every manifest entry.
+2. Review `ARTIFACT_INVENTORY.csv`, especially rows with `Physical bytes in v2 archive = NO`; those are explicit historical references, not missing files silently represented as present.
+3. Commit the exact final tree to the existing GitHub repository without rewriting historical tags `v1.0.0` or `v1.0.1`.
+4. **Confirm that the Zenodo GitHub auto-archiving toggle remains OFF before creating GitHub release `v2.0.0`.** It was switched OFF after saving the manual Zenodo new-version draft with reserved DOI `10.5281/zenodo.21938420`; leaving automatic ingestion enabled would risk creating a competing deposition/version.
+5. Create/tag GitHub release `v2.0.0` from the exact frozen tree, using `docs/RELEASE_NOTES_v2.0.0.md`.
+6. Return to the existing Zenodo new-version draft (do not create another record). Do not use **Import files** from v1.x. Upload the single exact frozen ZIP `LQTA_D_GITHUB_ZENODO_v2_0_0_FINAL_DOI_BOUND_TARGET_RELATION_EXPLICIT.zip` and fill/confirm metadata using `docs/ZENODO_METADATA_v2.0.0.md`.
+7. Preview the Zenodo record, verify DOI `10.5281/zenodo.21938420`, version `2.0.0`, title/creator, public visibility, and chosen record-level license. Then publish the draft. Publishing registers the reserved DOI.
+8. Confirm the DOI resolves, the version is linked under concept DOI `10.5281/zenodo.21931499`, and the GitHub `v2.0.0` tag/release points to the frozen tree. Optionally re-enable GitHub auto-archiving for future releases only after confirming there is no duplicate v2 ingestion pending.
+9. Run the final JMP submission audit using manuscript v15.3 / its journal-formatted derivative and the now-public DOI.
 
-1. **Clean public package**
-   - remove private working files;
-   - keep manuscript, figures, frozen evidence, public documentation, licences, and hashes.
-
-2. **Public-package audit**
-   - verify every SHA-256;
-   - verify that manuscript claims do not exceed the archived evidence;
-   - verify that no primitive spatial geometry is silently introduced;
-   - verify the distinction between exact foundations and finite campaign evidence.
-
-3. **Create the GitHub repository**
-   - proposed repository: `mabojviu/temporal-domains-without-global-clock`;
-   - initialize without auto-generated README/licence if uploading this package as-is.
-
-4. **Upload the clean repository contents**
-   - upload the contents of this package, not the outer ZIP itself as the repository tree;
-   - verify the root contains `README.md`, `CITATION.cff`, `SHA256SUMS.txt`, `manuscript/`, `evidence/`, etc.
-
-5. **Enable Zenodo–GitHub integration**
-   - connect the GitHub account to Zenodo;
-   - enable archiving for this repository **before** creating the archival release.
-
-6. **Create GitHub release `v1.0.0`**
-   - use the prepared release notes in `docs/RELEASE_DRAFT_NOTES.md`;
-   - do not change scientific files after the release is cut.
-
-7. **Archive the release on Zenodo**
-   - confirm Zenodo has ingested GitHub release `v1.0.0`;
-   - complete metadata using `docs/ZENODO_METADATA_DRAFT.txt`;
-   - publish the Zenodo record and obtain the version DOI.
-
-8. **Bind the DOI into the manuscript/repository**
-   - add the final DOI to the Data Availability / reproducibility statement and repository metadata;
-   - update `CITATION.cff`;
-   - if the manuscript changes, create a new manuscript hash and, if needed, a new repository release.
-   - never silently replace files under an existing frozen release.
-
-9. **Recompile/finalize the manuscript**
-   - produce the final submission PDF;
-   - rerun page-by-page visual inspection;
-   - recompute the manuscript SHA-256.
-
-10. **Optional preprint**
-    - prepare arXiv only after the archival DOI/repository state is stable, if desired.
-
-11. **Submit to Journal of Mathematical Physics**
-    - upload the compiled manuscript PDF;
-    - use the prepared cover letter;
-    - disclose the related manuscript `JMP26-AR-02157`;
-    - preserve the exact claim boundary.
-
-## Operating rule
-
-Proceed one micro-step at a time. After each external action, record the actual state before moving on.
-Do not infer that GitHub, Zenodo, arXiv, or the JMP portal completed an action until the UI confirms it.
-
-## Current checkpoint — 2026-08-14
-
-Completed before repository upload:
-- author metadata bound;
-- three manuscript figures revised and coherence-audited;
-- DOCX/PDF preflight clean;
-- internal author metadata corrected from a stale anonymized value;
-- exact claim boundary retained;
-- GitHub candidate rebuilt and SHA-audited in Step 4.
-
-Next external action after this candidate is accepted: upload the repository tree to GitHub.
+No post-publication modification of historical v1.x records is required.
