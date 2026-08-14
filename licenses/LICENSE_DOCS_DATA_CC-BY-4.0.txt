@@ -1,0 +1,8 @@
+Documentation and data in this release are intended for distribution under Creative Commons
+Attribution 4.0 International (CC BY 4.0).
+
+Licence reference:
+https://creativecommons.org/licenses/by/4.0/
+
+Before public release, ensure the named copyright/attribution holder is correctly filled in
+the repository metadata.

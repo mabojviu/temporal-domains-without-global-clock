@@ -1,0 +1,39 @@
+ZENODO METADATA DRAFT
+
+Title:
+Temporal Domains Without a Global Clock: Partial Gluing, Holonomy, and Gauge-Invariant Field Structure in Finite Relational Event Networks
+
+Upload type:
+Software / research reproducibility archive
+
+Version:
+1.0.0
+
+Description:
+Public reproducibility archive for the associated manuscript. The archive contains the manuscript,
+figures, frozen finite-campaign certification packages, exact structural/foundational packages,
+claim-boundary documentation, and cryptographic integrity records.
+
+Keywords:
+relational time
+temporal domains
+global clock
+holonomy
+discrete Hodge decomposition
+gauge invariance
+temporal transport
+provenance
+continuity equation
+finite event networks
+
+Licence:
+Code: BSD-3-Clause
+Documentation/data: CC BY 4.0
+
+Related work:
+Serialization Gauge and Conditioned-Hazard Obstructions for Finite Quantum-Jump Event Kernels
+(Journal of Mathematical Physics submission JMP26-AR-02157)
+
+Notes:
+Do not add claims of continuum spacetime, preferred geometry, Lorentz symmetry, gravity,
+physical creation/destruction of time, or a Noether charge.

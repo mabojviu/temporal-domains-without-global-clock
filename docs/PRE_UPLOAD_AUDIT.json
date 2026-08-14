@@ -1,0 +1,41 @@
+{
+  "candidate": "v0.1.2",
+  "certification_009_recorded_metadata_only": true,
+  "certification_lineage_complete_for_successor_archive": true,
+  "certifications_included": [
+    "CERT-010",
+    "CERT-011",
+    "CERT-012",
+    "CERT-013",
+    "CERT-014",
+    "CERT-015",
+    "CERT-016",
+    "CERT-017"
+  ],
+  "date": "2026-08-14",
+  "doi_assigned": false,
+  "figures": {
+    "figure1": "identical connectivity / typed ORD-CAL-CORR semantics",
+    "figure2": "exact-gradient / coexact-circulation / harmonic Hodge sectors",
+    "figure3": "reference-oriented provenance current, continuity, conditional conservation"
+  },
+  "github_upload_performed": false,
+  "historical_negative_path_records_included": [
+    "TC4H-v0.1 scientific FAIL",
+    "TC5H-v0.2 scientific FAIL",
+    "TC8H-v0.1 pre-science abandonment"
+  ],
+  "manuscript": {
+    "author_metadata": "Mariano Boj Viudes",
+    "data_availability": "provisional until GitHub/Zenodo DOI binding",
+    "docx_source": "Temporal_Domains_Without_a_Global_Clock_JMP_MANUSCRIPT_7_PREFLIGHT_CLEAN.docx",
+    "pages": 17,
+    "pdf_source": "Temporal_Domains_Without_a_Global_Clock_JMP_MANUSCRIPT_7_CANDIDATE.pdf"
+  },
+  "predecessor_certifications_001_008_not_duplicated": true,
+  "schema": "LQTA-D-TEMPORAL-DOMAINS-GITHUB-CANDIDATE-PREFLIGHT-0.1",
+  "science_frozen": true,
+  "status": "PASS_PRE_UPLOAD_CANDIDATE_REBUILT_AWAITING_GITHUB",
+  "target_release": "v1.0.0",
+  "zenodo_release_performed": false
+}
