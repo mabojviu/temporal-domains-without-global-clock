@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this repository, please cite the associated manuscript and archived release."
 title: "Temporal Domains Without a Global Clock: Partial Gluing, Holonomy, and Gauge-Invariant Field Structure in Finite Relational Event Networks"
 version: 1.0.0
+doi: "10.5281/zenodo.21931500"
 date-released: 2026-08-14
 type: software
 license: BSD-3-Clause

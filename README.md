@@ -39,15 +39,12 @@ Hence pure redistribution (`sum_i S_i = 0`) conserves `Q_T` exactly.
 This is a balance-law consequence of the discrete continuity equation; it is **not** presented as a Noether charge.
 
 
-## Release status
+## Archived release and DOI binding
 
-This tree is the **pre-Zenodo public release candidate** for GitHub release `v1.0.0`.
-The manuscript and evidence are frozen for repository upload, but the Data Availability statement
-will be rebound to the public GitHub/Zenodo record and DOI before the final JMP submission.
+GitHub release `v1.0.0` is publicly archived on Zenodo at DOI: `10.5281/zenodo.21931500`.
+The archived release remains frozen. The manuscript DOI-binding revision changes only publication metadata and the Data Availability statement; it does not alter the scientific claims, evidence packages, figures, or certification lineage.
 
-The manuscript figures in this candidate are the final audited versions: identical-connectivity
-typed relations, discrete temporal Hodge sectors, and provenance-aware transport/conditional conservation.
-
+The associated public source repository is `mabojviu/temporal-domains-without-global-clock` on GitHub.
 
 ## Historical certification lineage
 
