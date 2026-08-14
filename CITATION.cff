@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and archived release."
+title: "Temporal Domains Without a Global Clock: Partial Gluing, Holonomy, and Gauge-Invariant Field Structure in Finite Relational Event Networks"
+version: 1.0.0
+date-released: 2026-08-14
+type: software
+license: BSD-3-Clause
+repository-code: "https://github.com/mabojviu/temporal-domains-without-global-clock"
+authors:
+  - family-names: "Boj Viudes"
+    given-names: "Mariano"
+    orcid: "https://orcid.org/0009-0003-5544-0273"
+keywords:
+  - relational time
+  - temporal domains
+  - holonomy
+  - discrete Hodge decomposition
+  - gauge invariance
+  - provenance-aware transport
