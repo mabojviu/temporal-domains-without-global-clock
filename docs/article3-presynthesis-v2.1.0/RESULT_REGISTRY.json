@@ -1,0 +1,16 @@
+{
+  "version": "2.1.0",
+  "date": "2026-08-15",
+  "status": "READY_FOR_SYNTHESIS_AS_STRUCTURAL_KINEMATIC_THEORY__NOT_AUTONOMOUS_DYNAMICS",
+  "results": [
+    {"block":"HOM-CAL-REFRACTOR-0","status":"PASS","summary":"closed homogeneous sector unchanged; r0 is common metrology"},
+    {"block":"CLOCK-ORIGIN-1","status":"PASS","summary":"r_i are exact-CAL potential representatives, unique up to common positive scale"},
+    {"block":"PHYS-0E","status":"PASS","summary":"native provenance-selected continuity closure"},
+    {"block":"PHYS-0F","status":"PASS","summary":"rho/Rho semantics closed as nonexact CAL structural content"},
+    {"block":"PHYS-0G","status":"NO_GO/PASS","summary":"source-effect classification exact; frozen event labels do not determine CAL source class"},
+    {"block":"PHYS-0H","status":"PASS","summary":"fixed-carrier update classes; tree rigidity; beta1-dependent source-free structure"},
+    {"block":"PHYS-0I","status":"PASS/PARTIAL","summary":"persistent-holonomy support-change interface; bridge vs cycle birth; no general cross-carrier Rho source"},
+    {"block":"PHYS-0J","status":"PASS/RESTRICTED","summary":"integrable-ancestor kappa defect algebra and restricted relative source"},
+    {"block":"PHYS-0K","status":"STOP","summary":"no native unique CAL generator; further autonomous dynamics requires new physics"}
+  ]
+}
